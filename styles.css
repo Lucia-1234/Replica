@@ -87,3 +87,67 @@
     padding: 8px 15px;
     border: none;
   }
+
+  @media (max-width:1024px) {
+      .contenido{
+      width: 400px;
+      display: inline-block;
+      padding: 24px;
+    }
+
+  .personita{
+    width: 300px;
+    display: inline-block;
+    margin-left: 89px;
+  }
+
+    div button {
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+}
+
+@media (max-width:991px) {
+
+  .contenido{
+      width: 300px;
+      display: inline-block;
+      padding: 24px;
+    }
+
+  .personita{
+    width: 200px;
+    display: inline-block;
+    margin-left: 89px;
+  }
+
+  div button {
+    margin-top: 20px;
+    margin-left: 40px;
+  }
+}
+
+@media (max-width:460px) {
+ .menu{
+    float: left;
+    margin-right: 20px;
+    margin-top: 10px;
+ } 
+
+ .contenido{
+  width: 300px;
+  margin-top: 20PX;
+ }
+
+ .personita{ 
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 30px;
+ }
+
+ div button{
+  margin-left: 150px;
+  margin-top: 30px;
+ }
+}
+
